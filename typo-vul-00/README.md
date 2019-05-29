@@ -29,8 +29,8 @@ function XBornID() public {
     }
 }
 ```
-  The problem is that the constructor of the 'XBORNID' Token become normal `public` function which can be called by external attackers.
-By calling this function, attacker can become owner of the contract and could obtain 'XBORNID' Tokens for free.
+ The constructor of the XBORNID Token becomes normal `public` function due to the typo. The name of the constructor must be `XBORNID` and not `XBornID`. Because it is a `public` function, external attacker can call this function without any restriction.
+By calling this function, attacker can become owner of the contract and could obtain 'XBORNID' Tokens for free and steal ether.
   
 ```
 modifier onlyOwner() {
