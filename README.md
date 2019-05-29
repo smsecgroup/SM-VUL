@@ -1,5 +1,5 @@
 # Vulnerability
-Typo in Constructor
+CVE-XXX-XXX
 
 ## Vendor
 AIRDROPX BORN
