@@ -12,7 +12,7 @@ We found a vulnerability in smart contract of "XBORNID" which is an Ethereum ERC
 
 ## Details
 XBORNID is a Ethereum ERC20 Token contract. The total number of transactions submitted to this contract is 41,813, and 1,718 users holding the XBORNID token.
-Moreover, the last transaction date of this contract is 8 days ago which indicates that the contract is actively used by external users.
+Moreover, the last transaction date of this contract is 8 days ago which indicates that the contract is actively being used by external users.
 
 ![](./img/figure1.png)
   *Figure 1. XBORNID Token Information*
