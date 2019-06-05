@@ -11,7 +11,7 @@ Typo in Constructor
 We found a vulnerability in smart contract of "EAI" token. Because there is a typo in constructor, the attacker can obtain EAI tokens for free.
 
 ## Details
-'EAI' is a Ethereum ERC20 Token contract. The total number of transactions submit to this contract is 17,928, and 941 users holds this token.
+'EAI' is a Ethereum ERC20 Token contract. The total number of transactions submit to this contract is 17,928, and 941 users holding this token.
 Moreover, the last transaction date of this contract is 3 days ago which is actively used by external users.
 
 ![](./img/EAI_1.png)
@@ -46,7 +46,7 @@ function EAI_TokenERC20(
   We can adjust this value to change the token amount which we want to obtain.
 
   ![](./img/EAI_2.png)
-  *Figure 2. The Result of XBornID() function*
+  *Figure 2. The Result of EAI_TokenERC20() function*
 
 ## Conclusion
 The constructor name must be same as contract name or `constructor` keyword should be used for defining constructor.
