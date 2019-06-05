@@ -9,7 +9,7 @@ Typo in Constructor
 
 ## Abstract
 We found a vulnerability in smart contract of "MORPH" token. Because there is a typo in constructor of Owned contract which is inherited by MORPH token, allows attackers to acquire contract ownership.
-A new owner can subsequently acquire MORPH token for free and can perform DoS attack.
+A new owner can subsequently obtain MORPH token for free and can perform DoS attack.
 
 ## Details
 'MORPH' is an Ethereum ERC20 Token contract. The total number of transactions submit to this contract is 18,275, and 4,148 users holding this token.
