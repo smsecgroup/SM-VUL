@@ -1,5 +1,5 @@
 # Vulnerability
-CVE-XXX-XXX
+CVE-2019-15079
 
 ## Vendor
 EAI Token
