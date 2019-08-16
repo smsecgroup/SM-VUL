@@ -13,7 +13,7 @@ Because it copies and pastes the standard example code of "TokenERC20" contract 
 The attackers can obtain BossCoin tokens for free by just calling it.
 
 ## Details
-'BossCoin' is an Ethereum ERC20 Token contract. The total number of transfers submitted to this contract is 4,295, and 2,181 users holding this token.
+BossCoin is an Ethereum ERC20 Token contract. The total number of transfers submitted to this contract is 4,295, and 2,181 users holding this token.
 Moreover, the last transfer date of this contract is 10 days ago which indicates that it is actively used by external users.
 
 ![](./img/copy_img1.png)
