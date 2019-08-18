@@ -48,7 +48,7 @@ If the external attacker can call `init` function before the owner of the contra
 Below figure shows the result of calling `init` function.
 As we can see that the value of `etoken2` variable is successfully changed to `0xca35b7d915458ef540ade6068dfe2f44e8fa733c` which is the value of the first parameter of `init` function.
 
-  ![](./img/visibility_00_2.png)
+  ![](./img/visibility_00_2_1.png)
   *Figure 2. The Result of init function*
 
 ## Conclusion
