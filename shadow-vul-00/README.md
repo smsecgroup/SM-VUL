@@ -5,11 +5,11 @@ CVE-xxxx-xxxx
 Hong Kong Dollar Token (HKDT)
 
 ## Vulnerability Type
-Variable Shadowing Confusion
+Variable Shadowing Confusion & Integer Underflow
 
 ## Abstract
 We found a vulnerability in the smart contract of "HKDT" token.
-Because the storage `_totalSupply` is defined in both parent and child contracts, the functions in parent refer `_totalSupply` defined in the parent whereas functions in child refer `_totalSupply` defined in the child. The problem is that because only the `_totalSupply` defined in the child is initialized, the integer overflow occurs if the `_totalSupply` defined in the parent is referred.
+Because the storage `_totalSupply` is defined in both parent and child contracts, the functions in parent refer `_totalSupply` defined in the parent whereas functions in child refer `_totalSupply` defined in the child. The problem is that because only the `_totalSupply` defined in the child is initialized, the integer underflow occurs if the `_totalSupply` defined in the parent is referred.
 
 ## Details
 "HKDT" is an Ethereum ERC20 Token contract. 
@@ -61,7 +61,7 @@ Note that the value of `_totalSupply` before calling `destroyBlackFunds` functio
   *Figure 2. The Result of calling _totalSupply function*
 
 ## Conclusion
-If there are same name of the storage variables in both parent and child contract, they are two separated versions of variables.
+If there are same name of the storage variables in both parent and child contract, they are two separated versions of variables. Initializing one does not initialize the other.
 
 ## Reference
 https://etherscan.io/address/0x508325285114821151a18e148f4299ea09a9ca05
