@@ -38,15 +38,16 @@ contract Refereum is ERC20Interface, AssetProxyInterface, Bytes32 {
 }
 ```
 
-The `init` function in `Refereum` contract updates `etoken2` which holds the address of the token contract.
+The `init` function in the `Refereum` contract updates the `etoken2` which holds the address of the token contract.
 Because the token contract is used for exchange tokens, it is crucial to set the correct address of the token contract.
-However, the `init` function does not authenticate the function caller and only checks the initialize state of `etoken2` variable. If `etoken2` is not initialized, the `init` function updates the `etoken2`.
+However, the `init` function does not authenticate the function caller and only checks the initialize state of the `etoken2` variable. If the `etoken2` is not initialized, the `init` function updates the `etoken2`.
+
 The problem is that because it does not authenticate the function caller, it leads to a race condition attack.
-If the external attacker can call `init` function before the owner of the contract calls it, he can pollute the address of the token contract which is used by `Refereum` contract.
+If the external attacker calls `init` function before the owner of the contract calls it, he can pollute the address of the token contract which is used by the `Refereum` contract.
 
 ## Exploit
-Below figure shows the result of calling `init` function.
-As we can see that the value of `etoken2` variable is successfully changed to `0xca35b7d915458ef540ade6068dfe2f44e8fa733c` which is the value of the first parameter of `init` function.
+Below figure shows the result of calling the `init` function.
+As we can see that the value of the `etoken2` variable is successfully changed to `0xca35b7d915458ef540ade6068dfe2f44e8fa733c` which is the value of the first parameter of the `init` function.
 
   ![](./img/visibility_00_2_1.png)
   *Figure 2. The Result of init function*
