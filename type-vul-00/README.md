@@ -8,7 +8,7 @@ BancorQuickConverter (Ethereum Smart Contract)
 Down-Casting
 
 ## Abstract
-We found a down casting vulnerability in the smart contract of "BancorQuickConverter" which leads to calling non-existing function.
+We found a down-casting vulnerability in the smart contract of "BancorQuickConverter" which leads to calling non-existing function.
 
 ## Details
 'BancorQuickConverter' is an Ethereum smart contract. 
@@ -40,7 +40,7 @@ As we can see from the above code, the `IERC20Token` type is converted to the `I
 However, as shown in the last line of the code, the `ISmartToken` contract is a child contract of the `IERC20Token` contract.
 This means the result of down-casting is stored into the `smartToken` variable and it is used to call `owner()` function.
 The problem is that the `owner()` function only exists in the `ISmartToken` contract and not in the `IERC20Token`.
-The `smartToken` variable holds an object of `IERC20Token` type and therefore calling `owner()` function leads to unexpected behaviors.
+As the `smartToken` variable holds an object of `IERC20Token` type and therefore calling `owner()` function leads to unexpected behaviors.
 
 ## Exploit
 We test the minimized version of `convertFor` function for simplicity.
