@@ -8,7 +8,7 @@ BancorQuickConverter (Ethereum Smart Contract)
 Down-Casting
 
 ## Abstract
-We found a down-casting vulnerability in the smart contract of "BancorQuickConverter" which leads to calling non-existing function.
+We found a type confusion vulnerability (downcasting) in the smart contract of "BancorQuickConverter" which leads to calling non-existing function.
 
 ## Details
 'BancorQuickConverter' is an Ethereum smart contract. 
