@@ -71,7 +71,7 @@ The problem is that the `converFor` function asks external users to pass the `IE
 
 ## Conclusion
 Down-casting is unsafe and causes issues such as calling non-existing functions.
-It is not recommeded to convert a parent contract into one if its derived contracts.
+It is not recommeded to convert a parent contract into one of its derived contracts.
 
 ## Reference
 https://etherscan.io/address/0xf87a7ec94884f44d9de33d36b73f42c7c0dd38b1#tokentxns
