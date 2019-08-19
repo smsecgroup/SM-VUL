@@ -43,7 +43,7 @@ Because the token contract is used for exchange tokens, it is crucial to set the
 However, the `init` function does not authenticate the function caller and only checks the initialize state of the `etoken2` variable. If the `etoken2` is not initialized, the `init` function updates the `etoken2`.
 
 The problem is that because it does not authenticate the function caller, it leads to a race condition attack.
-If the external attacker calls `init` function before the owner of the contract calls it, he can pollute the address of the token contract which is used by the `Refereum` contract.
+If the external attacker calls `init` function before the owner of the contract calls it, he can pollute the address of the token contract and therefore, able to bypass authentication logics and manipulate token information.
 
 ## Exploit
 Below figure shows the result of calling the `init` function.
