@@ -61,4 +61,4 @@ https://etherscan.io/token/0xd58132f2fbd65f02beee0626542e6ee059009ab4
 https://xbornid.com/
 
 ## Discoverer
-Anonymous
+Sungjae Hwang (sjhwang87@kaist.ac.kr) and Sukyoung Rry (sryu.cs@kaist.ac.kr)
