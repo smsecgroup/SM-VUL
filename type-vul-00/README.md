@@ -1,5 +1,5 @@
 # Vulnerability
-CVE-xxxx-xxxxx
+CVE-2019-18777
 
 ## Vendor
 BancorQuickConverter (Ethereum Smart Contract)
