@@ -1,5 +1,5 @@
 # Vulnerability
-CVE-xxxx-xxxxx
+CVE-2019-18779
 
 ## Vendor
 Refereum Token
