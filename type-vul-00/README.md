@@ -77,4 +77,4 @@ It is not recommeded to convert a parent contract into one of its derived contra
 https://etherscan.io/address/0xf87a7ec94884f44d9de33d36b73f42c7c0dd38b1#tokentxns
 
 ## Discoverer
-Anonymous
+Sungjae Hwang (sjhwang87@kaist.ac.kr) and Sukyoung Rry (sryu.cs@kaist.ac.kr)
