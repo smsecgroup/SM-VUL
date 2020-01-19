@@ -87,4 +87,4 @@ If there are same name of the storage variables in both parent and child contrac
 https://etherscan.io/address/0x9002d4485b7594e3e850f0a206713b305113f69e
 
 ## Discoverer
-Anonymous
+Sungjae Hwang (sjhwang87@kaist.ac.kr) and Sukyoung Rry (sryu.cs@kaist.ac.kr)
