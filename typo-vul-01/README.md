@@ -56,4 +56,4 @@ https://etherscan.io/token/0x9ef0eb9d97e4e7c8612d4e5aaf9201e35bd3670b
 
 
 ## Discoverer
-Anonymous
+Sungjae Hwang (sjhwang87@kaist.ac.kr) and Sukyoung Rry (sryu.cs@kaist.ac.kr)
