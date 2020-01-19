@@ -1,5 +1,5 @@
 # Vulnerability
-CVE-xxxx-xxxx
+CVE-2019-18775
 
 ## Vendor
 BossCoin Token
