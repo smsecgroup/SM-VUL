@@ -65,4 +65,4 @@ The constructor name must be same as contract name or `constructor` keyword shou
 https://etherscan.io/token/0x2ef27bf41236bd859a95209e17a43fbd26851f92
 
 ## Discoverer
-Anonymous
+Sungjae Hwang (sjhwang87@kaist.ac.kr) and Sukyoung Rry (sryu.cs@kaist.ac.kr)
