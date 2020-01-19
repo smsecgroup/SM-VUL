@@ -1,5 +1,5 @@
 # Vulnerability
-CVE-xxxx-xxxx
+CVE-2019-18776
 
 ## Vendor
 Hong Kong Dollar Token (HKDT)
