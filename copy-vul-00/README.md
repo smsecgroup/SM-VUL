@@ -62,4 +62,4 @@ https://etherscan.io/token/0x687c7ceb80211d1c0ec3636c3332cb5fa256ac2b
 https://github.com/ethereum/ethereum-org/blob/master/solidity/token-erc20.sol
 
 ## Discoverer
-Anonymous
+Sungjae Hwang (sjhwang87@kaist.ac.kr) and Sukyoung Rry (sryu.cs@kaist.ac.kr)
