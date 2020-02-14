@@ -14,7 +14,7 @@ We found a vulnerability in smart contract of "BLACKCOIN" which is an Ethereum E
 BLACKCOIN is a Ethereum ERC20 Token contract. The total number of transactions submitted to this contract is 5,345, and 3,940 users are holding the BLACKCOIN token.
 Moreover, the last transaction date of this contract is 11 days ago which indicates that the contract is actively being used by external users.
 
-![](./img/black_1.png)
+![](./img/black_1.PNG)
   *Figure 1. BLACKCOIN Token Information*
 
 In the constructor of the 'BLACKCOIN' contract, there is a logic of changing owner of the contract to function caller.
@@ -49,7 +49,7 @@ Also, once the attacker becomes the owner of the contract, it can bypass `onlyOw
 
   Below figure is the result of `BLACKCOIS` function. We can obtain Tokens for free and able to become owner of the contract easily.
 
-  ![](./img/black_2.png)
+  ![](./img/black_2.PNG)
   *Figure 2. The Result of BLACKCOIS() function*
 
 ## Conclusion

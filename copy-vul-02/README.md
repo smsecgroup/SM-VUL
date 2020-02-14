@@ -14,7 +14,7 @@ We found a vulnerability in the smart contract of "InsuranceDynamicDevelopment" 
 InsuranceDynamicDevelopment is an Ethereum ERC20 Token contract. The total number of transfers submitted to this contract is 1,164, and 135 users holding this token.
 Moreover, the last transfer date of this contract is 10 days ago which indicates that it is actively used by external users.
 
-![](./img/idd_1.png)
+![](./img/idd_1.PNG)
   *Figure 1. InsuranceDynamicDevelopment Token Information*
 
 The problem is that the developer of "InsuranceDynamicDevelopment" contract copied and pasted the standard example code of "TokenERC20" contract and only changes the name of the contract not the name of the constructor.
@@ -51,7 +51,7 @@ More specifically, the attacker can obtain 500000000 InsuranceDynamicDevelopment
 The below figure shows the result of calling the constructor of `TokenERC20` function.
 As we can see that after calling `TokenERC20` function, we successfully obtained 500000000 InsuranceDynamicDevelopment tokens.
 
-  ![](./img/idd_2.png)
+  ![](./img/idd_2.PNG)
   *Figure 2. The Result of TokenERC20 function*
 
 ## Conclusion

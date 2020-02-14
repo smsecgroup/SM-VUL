@@ -14,7 +14,7 @@ We found a vulnerability in the smart contract of "AmbrToken" token. Because it 
 AmbrToken is a Ethereum ERC20 Token contract. The total number of transactions submitted to this contract is 6,027, and 3,689 users are holding the AmbrToken token.
 Moreover, the last transaction date of this contract is 6 days ago which indicates that the contract is actively being used by external users.
 
-![](./img/ambr_1.png)
+![](./img/ambr_1.PNG)
   *Figure 1. AmbrToken Token Information*
 
 The problem is that the developer of "AmbrToken" contract copied and pasted the standard example code of "SimpleToken" contract and only changes the name of the contract not the name of the constructor.
@@ -40,7 +40,7 @@ More specifically, the attacker can obtain AmbrToken for free by just calling th
   Below figure is the result of `SimpleToken` function. 
   As we can see that after calling `SimpleToken` function, we can obtain Tokens for free easily.
 
-  ![](./img/ambr_2.png)
+  ![](./img/ambr_2.PNG)
   *Figure 2. The Result of SimpleToken function*
 
 ## Conclusion

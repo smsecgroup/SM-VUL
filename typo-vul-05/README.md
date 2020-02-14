@@ -13,7 +13,7 @@ We found a vulnerability in smart contract of "万能链" token. Because there i
 ## Details
 'OMEC' is a Ethereum ERC20 Token contract. The total number of transactions submit to this contract is 4,093, and 372 users holding this token.
 
-![](./img/omec_1.png)
+![](./img/omec_1.PNG)
   *Figure 1. 万能链 Token Information*
 
 In the constructor of the 'OMEC' contract, all the initial tokens are assigned to constructor caller. 
@@ -43,7 +43,7 @@ function omec(
 
   Below figure is the result of `omec` function. We can obtain Tokens for free easily.
 
-  ![](./img/omec_2.png)
+  ![](./img/omec_2.PNG)
   *Figure 2. The Result of omec() function*
 
 ## Conclusion

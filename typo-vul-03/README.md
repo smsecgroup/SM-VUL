@@ -13,7 +13,7 @@ We found a vulnerability in smart contract of "ETA" token. Because there is a ty
 ## Details
 'ETA' is a Ethereum ERC20 Token contract. The total number of transactions submit to this contract is 1,622, and 117 users holding this token.
 
-![](./img/ETA_1.png)
+![](./img/ETA_1.PNG)
   *Figure 1. ETA Token Information*
 
 In the constructor of the 'ETA' contract, all the initial tokens are assigned to constructor caller. 
@@ -43,7 +43,7 @@ function ETAToken(
 
   Below figure is the result of `ETAToken` function. We can obtain Tokens for free easily.
 
-  ![](./img/ETA_2.png)
+  ![](./img/ETA_2.PNG)
   *Figure 2. The Result of ETAToken() function*
 
 ## Conclusion
